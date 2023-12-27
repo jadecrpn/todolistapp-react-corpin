@@ -1,0 +1,116 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: sans-serif
+}
+
+body{
+  /* background-color: #a459f4; */
+  background-color: #a459f4;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Intro .intro-content {
+  padding: 50px 50px 100px 25px;
+  text-align: center;
+}
+
+.Intro .intro-content h1 {
+  font-family: "Open Sans", sans-serif;
+  font-variant: small-caps;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.Intro .intro-content p {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.Todo-quote{
+  justify-content: center;
+  padding: 15%;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.todo-container {
+  background-color: #92bff3d8;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 500px;
+}
+
+.todo-input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+
+.Todo-Buttons{
+  background-color: #e64e4e;
+  border: none;
+  color: #efeded;
+  border-radius: 0 4px 4px 0;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0px 5px 0px 5px;
+}
+
+.Todo-Buttons-Update{
+  background-color: #f1b868;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0px 5px 0px; 
+}
+
+.Todo-Buttons-Delete{
+  background-color: #859025;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.Todo-text{
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.Todo-outtext{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #040404;
+  font-size: 16px;
+}
+
+.Todo-outtext.checked span {
+  text-decoration: line-through;
+}
+
